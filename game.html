@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--Elizabeth Webb-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Fighter</title>
+    <script src = "game.js"></script>
+    <link href="game.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>
+            <a href="Final.html">Home</a>
+            <a href="Index.html">Index</a>
+            <a href="Boards.html">Boards</a>
+            <a href="game.html">Game</a> 
+            <a href="First HTML.html">First Page</a>
+            <a href="strings.html">Strings</a>
+        </h1>
+        </nav>
+    <br><br><br>
+    <h2>Code Fighter</h2>
+    <br>
+    <img id=stick src="stick figure fight gif.gif" 80%>
+<!--I gave the gif an id tag so that I could scale the image smaller in css-->
+    <h3>Player Health starting at 100:</h3>
+    <div id = "round1Pl">Round 1 </div>
+    <div id = "round2Pl">Round 2 </div>
+    <div id = "round3Pl">Round 3</div>
+<!--I added Pl to the player stats and En to the enemy stats
+to differentiate their round totals-->
+    <h3>Enemy Health starting at 100:</h3>
+    <div id = "round1En">Round 1 </div>
+    <div id = "round2En">Round 2 </div>
+    <div id = "round3En">Round 3</div>
+    <div id = "finalRes">Final results:</div>
+    <br>
+    <button  onclick = "attack()">ATTACK</button>
+    </body>
+</html>
