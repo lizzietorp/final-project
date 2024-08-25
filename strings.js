@@ -2,6 +2,7 @@ function reverse()
 {
     var str1 = document.getElementById("firstStr").value;
     var splitStr1 = str1.split("");
+    var reverse = splitStr1.reverse();
     var joinStr1 = reverse.join("");
 
     if(str1 == joinStr1)
